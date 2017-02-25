@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on yutaiwasawa.blog</title>
+    <link>https://yutaiwasawa.github.io/yutaiwasawa.blog/tags/hugo/</link>
+    <description>Recent content in Hugo on yutaiwasawa.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>© 2016 yutaiwasawa.blog</copyright>
+    <lastBuildDate>Mon, 01 Aug 2016 10:24:30 +0900</lastBuildDate>
+    <atom:link href="https://yutaiwasawa.github.io/yutaiwasawa.blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>HUGOでブログを作った</title>
+      <link>https://yutaiwasawa.github.io/yutaiwasawa.blog/posts/1/</link>
+      <pubDate>Mon, 01 Aug 2016 10:24:30 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.github.io/yutaiwasawa.blog/posts/1/</guid>
+      <description>
+
+&lt;p&gt;静的サイトジェネレータの&lt;a href=&#34;http://gohugo.io/&#34;&gt;HUGO&lt;/a&gt;を使ってブログを作りました。&lt;/p&gt;
+
+&lt;h3 id=&#34;なぜhugoにしたか&#34;&gt;なぜHUGOにしたか&lt;/h3&gt;
+
+&lt;p&gt;色々理由があるのですが、一番はブログを書き続けられやすい環境にしたかったからです。&lt;br /&gt;
+WordPressでも良かったのですが、僕の場合はブログを書くだけなので正直オーバースペックな気がしました。&lt;/p&gt;
+
+&lt;p&gt;その他にも&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ビルドが高速。&lt;/li&gt;
+&lt;li&gt;サーバ上に管理画面がないのでセキュリティリスクが下がる。&lt;/li&gt;
+&lt;li&gt;Markdown形式で記事が書ける。&lt;/li&gt;
+&lt;li&gt;ローカル環境で記事をプレビューしながら書ける。&lt;/li&gt;
+&lt;li&gt;Githubページで公開できる。&lt;/li&gt;
+&lt;li&gt;新しい技術でブログを作りたい。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;等の理由からHUGOにしました。&lt;/p&gt;
+
+&lt;h3 id=&#34;最後に&#34;&gt;最後に&lt;/h3&gt;
+
+&lt;p&gt;テンプレートタグに依存するところもあるので、柔軟には対応できないところもあります。ただ「ブログを書き続けられやすい環境」として考えたらHUGOは最適かなと感じました。&lt;br /&gt;
+最低限ブログを公開できる状態までは出来たので、今後はブログを続けながらブラッシュアップしていこうと思います。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

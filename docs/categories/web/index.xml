@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on yutaiwasawa.blog</title>
+    <link>https://yutaiwasawa.github.io/yutaiwasawa.blog/categories/web/</link>
+    <description>Recent content in Web on yutaiwasawa.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>© 2016 yutaiwasawa.blog</copyright>
+    <lastBuildDate>Tue, 10 Jan 2017 18:20:53 +0900</lastBuildDate>
+    <atom:link href="https://yutaiwasawa.github.io/yutaiwasawa.blog/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>【Pug】属性値の変数を表示させる書き方</title>
+      <link>https://yutaiwasawa.github.io/yutaiwasawa.blog/posts/13/</link>
+      <pubDate>Tue, 10 Jan 2017 18:20:53 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.github.io/yutaiwasawa.blog/posts/13/</guid>
+      <description>
+
+&lt;p&gt;Pug(旧Jade)でコーディングする場合、ページごとのidやタイトルを設定したJSONファイルを取ってきて、それぞれ変数を表示させることがあります。&lt;br /&gt;
+タグ要素と属性値での変数表示方法が違って手間取ったので書いておきます。&lt;/p&gt;
+
+&lt;h4 id=&#34;タグ要素&#34;&gt;タグ要素&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-Pug&#34;&gt;//- タグ要素の場合 #{} の中に変数を書く
+title #{title}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;属性値&#34;&gt;属性値&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-Pug&#34;&gt;//- 属性値の場合 = にスペースを入れずに変数を書く
+main(id=page_id)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;同じようにつまづいた人がいたら参考になればと。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
