@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2017 on yutaiwasawa.blog</title>
-    <link>https://yutaiwasawa.github.io/yutaiwasawa.blog/archives/2017/</link>
+    <link>http://yutaiwasawa.blog/archives/2017/</link>
     <description>Recent content in 2017 on yutaiwasawa.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© 2016 yutaiwasawa.blog</copyright>
     <lastBuildDate>Tue, 10 Jan 2017 18:20:53 +0900</lastBuildDate>
-    <atom:link href="https://yutaiwasawa.github.io/yutaiwasawa.blog/archives/2017/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://yutaiwasawa.blog/archives/2017/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>【Pug】属性値の変数を表示させる書き方</title>
-      <link>https://yutaiwasawa.github.io/yutaiwasawa.blog/posts/13/</link>
+      <link>http://yutaiwasawa.blog/posts/13/</link>
       <pubDate>Tue, 10 Jan 2017 18:20:53 +0900</pubDate>
       
-      <guid>https://yutaiwasawa.github.io/yutaiwasawa.blog/posts/13/</guid>
+      <guid>http://yutaiwasawa.blog/posts/13/</guid>
       <description>
 
 &lt;p&gt;Pug(旧Jade)でコーディングする場合、ページごとのidやタイトルを設定したJSONファイルを取ってきて、それぞれ変数を表示させることがあります。&lt;br /&gt;
@@ -39,10 +39,10 @@ main(id=page_id)
     
     <item>
       <title>あけましておめでとうございます</title>
-      <link>https://yutaiwasawa.github.io/yutaiwasawa.blog/posts/12/</link>
+      <link>http://yutaiwasawa.blog/posts/12/</link>
       <pubDate>Wed, 04 Jan 2017 02:10:31 +0900</pubDate>
       
-      <guid>https://yutaiwasawa.github.io/yutaiwasawa.blog/posts/12/</guid>
+      <guid>http://yutaiwasawa.blog/posts/12/</guid>
       <description>&lt;p&gt;あけましておめでとうございます。&lt;/p&gt;
 
 &lt;p&gt;初詣は神田明神にて。&lt;/p&gt;
