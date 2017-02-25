@@ -5,7 +5,7 @@
     <link>https://yutaiwasawa.github.io/yutaiwasawa.blog/categories/coding/</link>
     <description>Recent content in Coding on yutaiwasawa.blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>ja-jp</language>
     <copyright>© 2016 yutaiwasawa.blog</copyright>
     <lastBuildDate>Sun, 25 Sep 2016 16:02:32 +0900</lastBuildDate>
     <atom:link href="https://yutaiwasawa.github.io/yutaiwasawa.blog/categories/coding/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <guid>https://yutaiwasawa.github.io/yutaiwasawa.blog/posts/5/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/4/&#34;&gt;前回&lt;/a&gt;に続けてFlexbox活用第2弾です。&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;../4/&#34;&gt;前回&lt;/a&gt;に続けてFlexbox活用第2弾です。&lt;br /&gt;
 今回はこれまで高さが固定ではない要素を、天地左右の中央に配置することは難しかったのですが、Flexboxを使うことによってスッキリ簡単に実現可能になりました。&lt;/p&gt;
 
 &lt;h3 id=&#34;表示方法&#34;&gt;表示方法&lt;/h3&gt;
