@@ -1,3 +1,3 @@
 # yutaiwasawa.blog
 
-[yutaiwasawa.blog](http://yutaiwasawa.blog/)
+[yutaiwasawa.blog](https://yutaiwasawa.blog/)

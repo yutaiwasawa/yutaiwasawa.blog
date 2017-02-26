@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on yutaiwasawa.blog</title>
-    <link>http://yutaiwasawa.blog/tags/hugo/</link>
+    <link>https://yutaiwasawa.blog/tags/hugo/</link>
     <description>Recent content in Hugo on yutaiwasawa.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© 2016 yutaiwasawa.blog</copyright>
     <lastBuildDate>Mon, 01 Aug 2016 10:24:30 +0900</lastBuildDate>
-    <atom:link href="http://yutaiwasawa.blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yutaiwasawa.blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>HUGOでブログを作った</title>
-      <link>http://yutaiwasawa.blog/posts/1/</link>
+      <link>https://yutaiwasawa.blog/posts/1/</link>
       <pubDate>Mon, 01 Aug 2016 10:24:30 +0900</pubDate>
       
-      <guid>http://yutaiwasawa.blog/posts/1/</guid>
+      <guid>https://yutaiwasawa.blog/posts/1/</guid>
       <description>
 
 &lt;p&gt;静的サイトジェネレータの&lt;a href=&#34;http://gohugo.io/&#34;&gt;HUGO&lt;/a&gt;を使ってブログを作りました。&lt;/p&gt;

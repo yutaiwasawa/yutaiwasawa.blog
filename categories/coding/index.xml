@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coding on yutaiwasawa.blog</title>
-    <link>http://yutaiwasawa.blog/categories/coding/</link>
+    <link>https://yutaiwasawa.blog/categories/coding/</link>
     <description>Recent content in Coding on yutaiwasawa.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© 2016 yutaiwasawa.blog</copyright>
     <lastBuildDate>Tue, 10 Jan 2017 18:20:53 +0900</lastBuildDate>
-    <atom:link href="http://yutaiwasawa.blog/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yutaiwasawa.blog/categories/coding/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>【Pug】属性値の変数を表示させる書き方</title>
-      <link>http://yutaiwasawa.blog/posts/13/</link>
+      <link>https://yutaiwasawa.blog/posts/13/</link>
       <pubDate>Tue, 10 Jan 2017 18:20:53 +0900</pubDate>
       
-      <guid>http://yutaiwasawa.blog/posts/13/</guid>
+      <guid>https://yutaiwasawa.blog/posts/13/</guid>
       <description>
 
 &lt;p&gt;Pug(旧Jade)でコーディングする場合、ページごとのidやタイトルを設定したJSONファイルを取ってきて、それぞれ変数を表示させることがあります。&lt;br /&gt;
@@ -39,10 +39,10 @@ main(id=page_id)
     
     <item>
       <title>高さが固定ではない要素を天地左右の中央に配置する方法</title>
-      <link>http://yutaiwasawa.blog/posts/5/</link>
+      <link>https://yutaiwasawa.blog/posts/5/</link>
       <pubDate>Sun, 25 Sep 2016 16:02:32 +0900</pubDate>
       
-      <guid>http://yutaiwasawa.blog/posts/5/</guid>
+      <guid>https://yutaiwasawa.blog/posts/5/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;../4/&#34;&gt;前回&lt;/a&gt;に続けてFlexbox活用第2弾です。&lt;br /&gt;
@@ -84,10 +84,10 @@ main(id=page_id)
     
     <item>
       <title>コンテンツ要素が少ない場合でもブラウザの最下部にフッターを表示させる方法</title>
-      <link>http://yutaiwasawa.blog/posts/4/</link>
+      <link>https://yutaiwasawa.blog/posts/4/</link>
       <pubDate>Thu, 01 Sep 2016 10:26:58 +0900</pubDate>
       
-      <guid>http://yutaiwasawa.blog/posts/4/</guid>
+      <guid>https://yutaiwasawa.blog/posts/4/</guid>
       <description>
 
 &lt;p&gt;通常ブラウザの表示領域よりコンテンツ要素が少ないと、フッターの下に余白ができてしまいます。そんな時にFlexboxとViewport Heightを使えば、コンテンツ要素が少なくても、フッターをブラウザの最下部に表示させることができます。&lt;/p&gt;
