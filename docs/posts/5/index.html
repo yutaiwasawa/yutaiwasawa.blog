@@ -1,136 +1,145 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title> 高さが固定ではない要素を天地左右の中央に配置する方法 - yutaiwasawa.blog </title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="description" content="undefined"/>
   <meta property="og:locale" content="locale"/>
   <meta property="fb:app_id" content=""/>
-  <meta property="og:title" content="高さが固定ではない要素を天地左右の中央に配置する方法"/>
+  <meta property="og:title" content="FINAL FANTASYと天野喜孝の世界展に行ってきた"/>
   <meta property="og:url" content="https://yutaiwasawa.blog/posts/5/"/>
-  <meta property="og:site_name" content="yutaiwasawa.blog"/>
+  <meta property="og:site_name" content="YUTA IWASAWA"/>
   
-  <meta name="description" content="前回に続けてFlexbox活用第2弾です。 今回はこれまで高さが固定ではない要素を、天地左右の中央に配置することは難しかったのですが、Flex..."/>
-  <meta property="og:description" content="前回に続けてFlexbox活用第2弾です。 今回はこれまで高さが固定ではない要素を、天地左右の中央に配置することは難しかったのですが、Flex..."/>
-  <meta name="twitter:description" content="前回に続けてFlexbox活用第2弾です。 今回はこれまで高さが固定ではない要素を、天地左右の中央に配置することは難しかったのですが、Flex..."/>
-  
+  <meta name="description" content="「FINAL FANTASYと天野喜孝の世界展」に行ってきました。
+
+天野喜孝さんといえばFINAL FANTASYのキャラクターデザインで有名ですが、タイムボカンシリーズのキャラクターデザインもしていたそうです。..."/>
+  <meta property="og:description" content="「FINAL FANTASYと天野喜孝の世界展」に行ってきました。
+
+天野喜孝さんといえばFINAL FANTASYのキャラクターデザインで有名ですが、タイムボカンシリーズのキャラクターデザインもしていたそうです。..."/>
+  <meta name="twitter:description" content="「FINAL FANTASYと天野喜孝の世界展」に行ってきました。
+
+天野喜孝さんといえばFINAL FANTASYのキャラクターデザインで有名ですが、タイムボカンシリーズのキャラクターデザインもしていたそうです。..."/>
   
   
   <meta property="og:image" content="https://yutaiwasawa.blog/images/nothumb.svg"/>
   <meta property="twitter:image" content="https://yutaiwasawa.blog/images/nothumb.svg"/>
   
-  
   <meta property="og:type" content="article"/>
-  <meta property="og:article:published_time" content="2016-09-25T16:02:32&#43;09:00"/>
-  <meta property="og:article:tag" content="CSS"/>
+  <meta property="og:article:published_time" content="2018-08-19T10:39:39&#43;09:00"/>
+  <meta property="og:article:tag" content="好きなもの"/>
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:site" content="@https://twitter.com/yutaiwasawa1212"/>
   <meta name="twitter:creator" content="@https://twitter.com/yutaiwasawa1212"/>
-  <meta name="twitter:title" content="高さが固定ではない要素を天地左右の中央に配置する方法"/>
+  <meta name="twitter:title" content="FINAL FANTASYと天野喜孝の世界展に行ってきた"/>
   <meta name="twitter:url" content="https://yutaiwasawa.blog/posts/5/"/>
-  <link rel="icon" href="https://yutaiwasawa.blog/images/favicon.ico"/>
-  <link rel="apple-touch-icon" href="https://yutaiwasawa.blog/images/apple-touch-icon.png"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gruppo"/>
-  <link rel="stylesheet" href="https://yutaiwasawa.blog/css/font-awesome.min.css"/>
-  <link rel="stylesheet" href="https://yutaiwasawa.blog/css/prism.css"/>
-  <link rel="stylesheet" href="https://yutaiwasawa.blog/css/style.css"/>
-<script>
+  <title> FINAL FANTASYと天野喜孝の世界展に行ってきた - YUTA IWASAWA </title>
+  <link rel="icon" href="https://yutaiwasawa.blog/images/common/favicon.ico"/>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/yui/3.18.0/cssreset/cssreset-min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,500"/>
+  <link rel="stylesheet" href="https://yutaiwasawa.blog/css/syntax.css"/>
+  <link rel="stylesheet" href="https://yutaiwasawa.blog/css/common.css"/><script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  (i[r].q=i[r].q || []).push(arguments)},i[r].l=1 * new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-72992906-1', 'auto');
   ga('send', 'pageview');
-</script>
+  </script>
 </head>
   <body>
-<header>
-  <div class="container">
-    <div class="row">
-      <h1><a href="https://yutaiwasawa.blog/">yutaiwasawa.blog</a></h1>
-      <nav>
-        <input id="switch" type="checkbox"/>
-        <label for="switch"> </label>
-        <ul class="nav-menu">
-          
-          
-          <li><a href="https://yutaiwasawa.blog/about/">About</a></li>
-          <li><a href="https://yutaiwasawa.blog/archives/">Archives</a></li>
-          <li><a href="https://yutaiwasawa.blog/categories/">Categories</a></li>
-          <li><a href="https://yutaiwasawa.blog/tags/">Tags</a></li>
-        </ul>
-      </nav>
+    <div id="barba-wrapper">
+      <div class="barba-container" data-namespace="single">
+        
+<nav>
+  <div class="full-screen">
+    <div class="nav-position">
+      <ul class="nav-list">
+        <li class="nav-list__item"><a href="https://yutaiwasawa.blog/">TOP</a></li>
+        
+        <li class="nav-list__item"><a href="https://yutaiwasawa.blog/about/">About</a></li>
+        <li class="nav-list__item"><a href="https://yutaiwasawa.blog/archives/">Archives</a></li>
+        <li class="nav-list__item"><a href="https://yutaiwasawa.blog/categories/">Categories</a></li>
+        <li class="nav-list__item"><a href="https://yutaiwasawa.blog/tags/">Tags</a></li>
+      </ul>
     </div>
   </div>
+</nav>
+        
+<header>
+  <div class="single-heading" id="heading"></div>
 </header>
-    <main id="single">
-      <div class="container">
-        <div class="row">
-          <div class="content">
-            <section>
-              <div class="post">
-                <div class="post__header"><span class="post-date">
-                    <time datetime="2016-09-25">2016.09.25 </time>/ </span><span class="post-category"><a href="https://yutaiwasawa.blog/categories/coding">Coding</a></span>
-                  <h2 class="post-title">高さが固定ではない要素を天地左右の中央に配置する方法</h2>
-                  <div class="post-tag"><a href="https://yutaiwasawa.blog/tags/css">#CSS</a></div>
+        <div class="menu"><span class="menu__text">MENU</span></div>
+        <main>
+          <div class="article-heading">
+            <div class="container">
+              <div class="row">
+                <div class="text">
+                  <div class="time-category">
+                    <time datetime="2018-08-19">2018.08.19</time><span class="slash">/</span><span class="category" href="https://yutaiwasawa.blog/categories/diary">diary</span>
+                  </div>
+                  <h2 class="title">FINAL FANTASYと天野喜孝の世界展に行ってきた</h2>
+                  <div class="tag"><a href="https://yutaiwasawa.blog/tags/%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%82%E3%81%AE">#好きなもの</a></div>
                 </div>
-                <div class="post__content">
-                  
+              </div>
+            </div>
+          </div>
+          <div id="single">
+            <div class="container">
+              <div class="row">
+                <div class="content">
+                  <div class="post"><p>「<a href="http://amano-exhibition.jp/">FINAL FANTASYと天野喜孝の世界展</a>」に行ってきました。</p>
 
-<p><a href="../4/">前回</a>に続けてFlexbox活用第2弾です。<br />
-今回はこれまで高さが固定ではない要素を、天地左右の中央に配置することは難しかったのですが、Flexboxを使うことによってスッキリ簡単に実現可能になりました。</p>
+<p>天野喜孝さんといえばFINAL FANTASYのキャラクターデザインで有名ですが、タイムボカンシリーズのキャラクターデザインもしていたそうです。</p>
 
-<h3 id="表示方法">表示方法</h3>
+<p>僕はFAINAL FANTASY Ⅳが特に好きで、天野さんが作り出すキャラクターデザインとFINAL FANTASY Ⅳの「世界観 」「ストーリー」「音楽」がマッチしていて、当時小学生だった僕は衝撃を受けてずーっとやっていた記憶があります。</p>
 
-<h4 id="code">CODE</h4>
 
-<pre><code class="language-html">&lt;div class=&quot;container&quot;&gt;
-  &lt;div class=&quot;content&quot;&gt;高さが固定ではないコンテンツ&lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
+<div class="iframe-content">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sMpzODudeks" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
 
-<pre><code class="language-CSS">.container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-</code></pre>
+<p>出だしのプレリュードからワクワク感が止まりません。</p>
 
-<h4 id="demo">DEMO</h4>
+<p>場所は池袋駅のサンシャインシティ文化会館ビル3F展示ホールCです。</p>
 
-<iframe height='265' scrolling='no' src='//codepen.io/yutaiwasawa/embed/mAvvwx/?height=265&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/yutaiwasawa/pen/mAvvwx/'>高さが固定ではない要素を天地左右の中央に配置</a> by Yuta Iwasawa (<a href='http://codepen.io/yutaiwasawa'>@yutaiwasawa</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
 
-<p>たったCSSを4行指定しただけで、天地左右の中央に要素を持ってこられます。</p>
+<div class="iframe-content">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.895857514325!2d139.7177289148205!3d35.728779680183244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d6e15093bcd%3A0xe7a78e696bb8bdb6!2z44K144Oz44K344Oj44Kk44Oz44K344OG44Kj5paH5YyW5Lya6aSo44OT44Or!5e0!3m2!1sja!2sjp!4v1536062284976" width="560" height="315" frameborder="0" style="border:0" allowfullscreen="allowfullscreen"></iframe>
+</div>
 
-<h3 id="考察">考察</h3>
+<p>駅からは少し遠いので歩きが少し疲れますが、展示場に入った瞬間、流れている音楽と原画で疲れも吹っ飛びテンションが上がってしまいました。さらにスマホだったら撮影OKでした。</p>
 
-<p>まず親要素である<code>.container</code>に対して高さをを指定します。今回は<code>height: 100vh</code>でブラウザいっぱいに広げています。更に<code>display: flex</code>を指定して<code>.content</code>をFlexコンテナボックスにし、<code>align-items: center</code>で天地中央に、<code>justify-content: center</code>で左右中央にします。</p>
+<img src="../../images/posts/5/1.jpg"   >
+
+<img src="../../images/posts/5/2.jpg"   >
+
+<img src="../../images/posts/5/3.jpg"   >
+
+<img src="../../images/posts/5/4.jpg"   >
+
+<img src="../../images/posts/5/5.jpg"   >
+
+<img src="../../images/posts/5/6.jpg"   >
+
+<img src="../../images/posts/5/7.jpg"   >
+
+<img src="../../images/posts/5/8.jpg"   >
+
+<img src="../../images/posts/5/9.jpg"   >
 
 <h3 id="最後に">最後に</h3>
 
-<p>高さを指定しないで天地左右の中央に持ってこられることによって、ブログのタイトルなど長さが決まっていない動的な要素を入れられるようになります。これも本当にありがたい。</p>
+<p>実は写真が撮れることが嬉しくて、展示されていた原画は一枚ずつ全て撮ってしまいました。他の人も一枚とっては次の原画へ移動するみたいな感じだったので、全部撮った人も結構いたかと思います。</p>
 
-                </div>
-                
-<ul class="post__share">
-  <li class="share-item"><a class="hvr-radial-out twitter" href="http://twitter.com/intent/tweet?text=%e9%ab%98%e3%81%95%e3%81%8c%e5%9b%ba%e5%ae%9a%e3%81%a7%e3%81%af%e3%81%aa%e3%81%84%e8%a6%81%e7%b4%a0%e3%82%92%e5%a4%a9%e5%9c%b0%e5%b7%a6%e5%8f%b3%e3%81%ae%e4%b8%ad%e5%a4%ae%e3%81%ab%e9%85%8d%e7%bd%ae%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20%7C%20yutaiwasawa.blog%0ahttps://yutaiwasawa.blog/posts/5/" onclick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=1' ); return false;"><i class="fa fa-twitter"></i></a></li>
-  <li class="share-item"><a class="hvr-radial-out facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://yutaiwasawa.blog/posts/5/" onclick="window.open(encodeURI(decodeURI(this.href)), 'fbwindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=1'); return false;"><i class="fa fa-facebook-official"></i></a></li>
-  <li class="share-item"><a class="hvr-radial-out pocket" href="http://getpocket.com/edit?url=https://yutaiwasawa.blog/posts/5/&amp;title=%e9%ab%98%e3%81%95%e3%81%8c%e5%9b%ba%e5%ae%9a%e3%81%a7%e3%81%af%e3%81%aa%e3%81%84%e8%a6%81%e7%b4%a0%e3%82%92%e5%a4%a9%e5%9c%b0%e5%b7%a6%e5%8f%b3%e3%81%ae%e4%b8%ad%e5%a4%ae%e3%81%ab%e9%85%8d%e7%bd%ae%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" onclick="window.open(encodeURI(decodeURI(this.href)), 'pocketwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a></li>
-  <li class="share-item"><a class="hvr-radial-out hatebu" href="http://b.hatena.ne.jp/entry/https://yutaiwasawa.blog/posts/5/" onclick="window.open(encodeURI(decodeURI(this.href)), 'hatenawindow', 'width=500, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-hatena"></i></a></li>
-</ul>
-                
-<ul class="post__pager"> 
-  <li class="prev"><a class="title-hover" href="https://yutaiwasawa.blog/posts/4/"><i class="fa fa-angle-left" aria-hidden="true"></i><span>コンテンツ要素が少ない場合でもブラウザの最下部にフッターを表示させる方法</span></a></li>
-  <li class="next"><a class="title-hover" href="https://yutaiwasawa.blog/posts/6/"><span>俺はまだ本気出してないだけ </span><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
-</ul>
-                
-                
-<div class="post__related">
-  <h4>関連記事</h4>
-  <ul>
+<p>やっぱりみんな思い入れがあるんだろうなぁ。この繊細なタッチかっこいいです。</p>
+
+<p>久しぶりにFAINAL FANTASY Ⅳをやりたいなぁ。</p></div>
+<div class="related-posts">
+  <div class="heading">RELATED POSTS</div>
+  <ul class="related-posts-list">
     
     
     
@@ -142,50 +151,103 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <li>
-      <article>
-        <div class="time-category">
-          <time datetime="2016-09-01">2016.09.01 </time>/ <span class="post-category">Coding</span>
-        </div>
-        <h3 class="post-title"><a href="https://yutaiwasawa.blog/posts/4/">コンテンツ要素が少ない場合でもブラウザの最下部にフッターを表示させる方法</a></h3>
-      </article>
+    <li class="related-posts-list__item">
+      <article><a href="https://yutaiwasawa.blog/posts/7/">
+          <div class="time-category">
+            <time datetime="2018-10-29">2018.10.29</time><span class="slash">/</span><span class="category">diary</span>
+          </div>
+          <h2 class="title">畜ペンことつば九郎がおもしろかわいい</h2></a></article>
     </li>
+    
+    
+    
+    
+    <li class="related-posts-list__item">
+      <article><a href="https://yutaiwasawa.blog/posts/6/">
+          <div class="time-category">
+            <time datetime="2018-08-20">2018.08.20</time><span class="slash">/</span><span class="category">diary</span>
+          </div>
+          <h2 class="title">江戸ねこ茶屋に行ってきた</h2></a></article>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -202,38 +264,35 @@
     
   </ul>
 </div>
-                
-                      <div id="disqus_thread"></div>
-      <script>
-      
-      
-
-      
-
-      (function() { 
-          var d = document, s = d.createElement('script');
-          s.src = '//yutaiwasawa-blog.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-      })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                  
+<div class="post-pagination">
+  <div class="prev arrow"><a href="https://yutaiwasawa.blog/posts/4/"></a></div>
+  
+  <div class="next arrow"><a href="https://yutaiwasawa.blog/posts/6/"></a></div>
+</div>
+                </div>
               </div>
-            </section>
+            </div>
           </div>
-        </div>
-      </div>
-    </main>
-    
+        </main>
 <footer>
   <div class="container">
-    <div class="row"><small>© 2016 yutaiwasawa.blog</small></div>
+    <div class="row">
+      <div class="all-rights-reserved"><small>© 2018 YUTA IWASAWA</small></div>
+      <ul class="share">
+        <li class="share__item"><span class="share-heading">SHARE</span></li>
+        <li class="share__item"><a class="twitter" href="https://twitter.com/yutaiwasawa1212"><i class="fa fa-twitter"></i></a><a class="instagram" href="https://www.instagram.com/yutaiwasawa/"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+    </div>
   </div>
 </footer>
-    
+        
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="https://yutaiwasawa.blog/js/prism.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 <script src="https://yutaiwasawa.blog/js/script.js"></script>
+      </div>
+    </div>
   </body>
 </html>

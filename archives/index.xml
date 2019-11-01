@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archives on YUTA IWASAWA</title>
+    <link>https://yutaiwasawa.blog/archives/</link>
+    <description>Recent content in Archives on YUTA IWASAWA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>© 2018 YUTA IWASAWA</copyright>
+    <lastBuildDate>Mon, 20 Aug 2018 23:26:20 +0900</lastBuildDate>
+    
+	<atom:link href="https://yutaiwasawa.blog/archives/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2018</title>
+      <link>https://yutaiwasawa.blog/archives/2018/</link>
+      <pubDate>Mon, 20 Aug 2018 23:26:20 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/archives/2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019</title>
+      <link>https://yutaiwasawa.blog/archives/2019/</link>
+      <pubDate>Mon, 22 Apr 2019 17:17:51 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/archives/2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

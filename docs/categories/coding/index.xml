@@ -1,143 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Coding on yutaiwasawa.blog</title>
+    <title>Coding on YUTA IWASAWA</title>
     <link>https://yutaiwasawa.blog/categories/coding/</link>
-    <description>Recent content in Coding on yutaiwasawa.blog</description>
+    <description>Recent content in Coding on YUTA IWASAWA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>© 2016 yutaiwasawa.blog</copyright>
-    <lastBuildDate>Tue, 10 Jan 2017 18:20:53 +0900</lastBuildDate>
-    <atom:link href="https://yutaiwasawa.blog/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2018 YUTA IWASAWA</copyright>
+    <lastBuildDate>Fri, 17 Aug 2018 10:12:35 +0900</lastBuildDate>
     
-    <item>
-      <title>【Pug】属性値の変数を表示させる書き方</title>
-      <link>https://yutaiwasawa.blog/posts/13/</link>
-      <pubDate>Tue, 10 Jan 2017 18:20:53 +0900</pubDate>
-      
-      <guid>https://yutaiwasawa.blog/posts/13/</guid>
-      <description>
-
-&lt;p&gt;Pug(旧Jade)でコーディングする場合、ページごとのidやタイトルを設定したJSONファイルを取ってきて、それぞれ変数を表示させることがあります。&lt;br /&gt;
-タグ要素と属性値での変数表示方法が違って手間取ったので書いておきます。&lt;/p&gt;
-
-&lt;h4 id=&#34;タグ要素&#34;&gt;タグ要素&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-Pug&#34;&gt;//- タグ要素の場合 #{} の中に変数を書く
-title #{title}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;属性値&#34;&gt;属性値&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-Pug&#34;&gt;//- 属性値の場合 = にスペースを入れずに変数を書く
-main(id=page_id)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;同じようにつまづいた人がいたら参考になればと。&lt;/p&gt;
-</description>
-    </item>
+	<atom:link href="https://yutaiwasawa.blog/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>高さが固定ではない要素を天地左右の中央に配置する方法</title>
-      <link>https://yutaiwasawa.blog/posts/5/</link>
-      <pubDate>Sun, 25 Sep 2016 16:02:32 +0900</pubDate>
+      <link>https://yutaiwasawa.blog/posts/3/</link>
+      <pubDate>Fri, 17 Aug 2018 10:12:35 +0900</pubDate>
       
-      <guid>https://yutaiwasawa.blog/posts/5/</guid>
-      <description>
+      <guid>https://yutaiwasawa.blog/posts/3/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;posts/2/&#34;&gt;前回&lt;/a&gt;に続けてFlexbox活用第2弾です。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;../4/&#34;&gt;前回&lt;/a&gt;に続けてFlexbox活用第2弾です。&lt;br /&gt;
-今回はこれまで高さが固定ではない要素を、天地左右の中央に配置することは難しかったのですが、Flexboxを使うことによってスッキリ簡単に実現可能になりました。&lt;/p&gt;
-
-&lt;h3 id=&#34;表示方法&#34;&gt;表示方法&lt;/h3&gt;
-
-&lt;h4 id=&#34;code&#34;&gt;CODE&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
-  &amp;lt;div class=&amp;quot;content&amp;quot;&amp;gt;高さが固定ではないコンテンツ&amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-CSS&#34;&gt;.container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;demo&#34;&gt;DEMO&lt;/h4&gt;
-
-&lt;iframe height=&#39;265&#39; scrolling=&#39;no&#39; src=&#39;//codepen.io/yutaiwasawa/embed/mAvvwx/?height=265&amp;theme-id=0&amp;default-tab=result&amp;embed-version=2&#39; frameborder=&#39;no&#39; allowtransparency=&#39;true&#39; allowfullscreen=&#39;true&#39; style=&#39;width: 100%;&#39;&gt;See the Pen &lt;a href=&#39;http://codepen.io/yutaiwasawa/pen/mAvvwx/&#39;&gt;高さが固定ではない要素を天地左右の中央に配置&lt;/a&gt; by Yuta Iwasawa (&lt;a href=&#39;http://codepen.io/yutaiwasawa&#39;&gt;@yutaiwasawa&lt;/a&gt;) on &lt;a href=&#39;http://codepen.io&#39;&gt;CodePen&lt;/a&gt;.
-&lt;/iframe&gt;
-
-&lt;p&gt;たったCSSを4行指定しただけで、天地左右の中央に要素を持ってこられます。&lt;/p&gt;
-
-&lt;h3 id=&#34;考察&#34;&gt;考察&lt;/h3&gt;
-
-&lt;p&gt;まず親要素である&lt;code&gt;.container&lt;/code&gt;に対して高さをを指定します。今回は&lt;code&gt;height: 100vh&lt;/code&gt;でブラウザいっぱいに広げています。更に&lt;code&gt;display: flex&lt;/code&gt;を指定して&lt;code&gt;.content&lt;/code&gt;をFlexコンテナボックスにし、&lt;code&gt;align-items: center&lt;/code&gt;で天地中央に、&lt;code&gt;justify-content: center&lt;/code&gt;で左右中央にします。&lt;/p&gt;
-
-&lt;h3 id=&#34;最後に&#34;&gt;最後に&lt;/h3&gt;
-
-&lt;p&gt;高さを指定しないで天地左右の中央に持ってこられることによって、ブログのタイトルなど長さが決まっていない動的な要素を入れられるようになります。これも本当にありがたい。&lt;/p&gt;
-</description>
+&lt;p&gt;今回はこれまで高さが固定ではない要素を、天地左右の中央に配置することは難しかったのですが、Flexboxを使うことによってスッキリ簡単に実現可能になりました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>コンテンツ要素が少ない場合でもブラウザの最下部にフッターを表示させる方法</title>
-      <link>https://yutaiwasawa.blog/posts/4/</link>
-      <pubDate>Thu, 01 Sep 2016 10:26:58 +0900</pubDate>
+      <link>https://yutaiwasawa.blog/posts/2/</link>
+      <pubDate>Thu, 16 Aug 2018 19:12:35 +0900</pubDate>
       
-      <guid>https://yutaiwasawa.blog/posts/4/</guid>
-      <description>
-
-&lt;p&gt;通常ブラウザの表示領域よりコンテンツ要素が少ないと、フッターの下に余白ができてしまいます。そんな時にFlexboxとViewport Heightを使えば、コンテンツ要素が少なくても、フッターをブラウザの最下部に表示させることができます。&lt;/p&gt;
-
-&lt;h3 id=&#34;表示方法&#34;&gt;表示方法&lt;/h3&gt;
-
-&lt;h4 id=&#34;code&#34;&gt;CODE&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;header&amp;gt;HEADER&amp;lt;/header&amp;gt;
-&amp;lt;main class=&amp;quot;content&amp;quot;&amp;gt;CONTENT&amp;lt;/main&amp;gt;
-&amp;lt;footer&amp;gt;FOOTER&amp;lt;/footer&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.content {
-  flex: 1 0 auto;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;demo&#34;&gt;DEMO&lt;/h4&gt;
-
-&lt;iframe height=&#39;265&#39; scrolling=&#39;no&#39; src=&#39;//codepen.io/yutaiwasawa/embed/WGPgOd/?height=265&amp;theme-id=0&amp;default-tab=result&amp;embed-version=2&#39; frameborder=&#39;no&#39; allowtransparency=&#39;true&#39; allowfullscreen=&#39;true&#39; style=&#39;width: 100%;&#39;&gt;See the Pen &lt;a href=&#39;http://codepen.io/yutaiwasawa/pen/WGPgOd/&#39;&gt;WGPgOd&lt;/a&gt; by Yuta Iwasawa (&lt;a href=&#39;http://codepen.io/yutaiwasawa&#39;&gt;@yutaiwasawa&lt;/a&gt;) on &lt;a href=&#39;http://codepen.io&#39;&gt;CodePen&lt;/a&gt;.
-&lt;/iframe&gt; 
-
-&lt;p&gt;&lt;code&gt;.content&lt;/code&gt;には&lt;code&gt;margin&lt;/code&gt;や&lt;code&gt;padding&lt;/code&gt;を一切入れていないですが、&lt;code&gt;footer&lt;/code&gt;がブラウザの最下部にきていることがわかるかと思います。&lt;/p&gt;
-
-&lt;h3 id=&#34;考察&#34;&gt;考察&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;1.各要素を縦に並べる&lt;/strong&gt;&lt;br /&gt;
-まず、&lt;code&gt;display: flex&lt;/code&gt;で各要素をflexコンテナボックスにし、&lt;code&gt;flex-direction: column&lt;/code&gt;で表示方法を縦（上から下）にします。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2.ブラウザ表示領域いっぱいに広げる&lt;/strong&gt;&lt;br /&gt;
-まだこの状態ではブラウザいっぱいに広がってないので、&lt;code&gt;footer&lt;/code&gt;の下には余白があります。&lt;br /&gt;
-ここでViewport Heightの出番です。これは、viewport（ブラウザの表示領域）を基準にした相対単位です。1vh = viewportの高さの1/100なので、&lt;code&gt;body&lt;/code&gt;に対して&lt;code&gt;min-height: 100vh&lt;/code&gt;を設定することで全体がブラウザいっぱいに広がります。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3.余白を埋める&lt;/strong&gt;&lt;br /&gt;
-この状態でも見た目的には大丈夫なのですが、実際には&lt;code&gt;.content&lt;/code&gt;と&lt;code&gt;footer&lt;/code&gt;には余白があります。&lt;br /&gt;
-なので、&lt;code&gt;.content&lt;/code&gt;に対して&lt;code&gt;flex: 1 0 auto&lt;/code&gt;を指定して余白を埋めます。&lt;br /&gt;
-また&lt;code&gt;flex: 1&lt;/code&gt;でもいいのですが、確かIE11だと反映されなかったような…。なので一応ショートハンドで&lt;code&gt;flex-shrink&lt;/code&gt;と&lt;code&gt;flex-basis&lt;/code&gt;も指定してます。&lt;/p&gt;
-
-&lt;h3 id=&#34;最後に&#34;&gt;最後に&lt;/h3&gt;
-
-&lt;p&gt;以前はpositionを指定したり、JavaScriptを使って実現していましたが、Flexboxのおかげでかなりスッキリ書けるようになりました。本当にありがたい。&lt;br /&gt;
-ただ相変わらずIEがね&amp;hellip;&lt;/p&gt;
-</description>
+      <guid>https://yutaiwasawa.blog/posts/2/</guid>
+      <description>&lt;p&gt;通常ブラウザの表示領域よりコンテンツ要素が少ないと、フッターの下に余白ができてしまいます。&lt;br /&gt;
+そんな時にFlexboxとViewport Heightを使えば、コンテンツ要素が少なくても、フッターをブラウザの最下部に表示させることができます。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【Pug】属性値の変数を表示させる書き方</title>
+      <link>https://yutaiwasawa.blog/posts/1/</link>
+      <pubDate>Wed, 15 Aug 2018 20:55:35 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/posts/1/</guid>
+      <description>&lt;p&gt;Pug(旧Jade)でコーディングする場合、ページごとのidやタイトルを設定したJSONファイルを取ってきて、それぞれ変数を表示させることがあります。
+タグ要素と属性値での変数表示方法が違って手間取ったので書いておきます。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2018 on YUTA IWASAWA</title>
+    <link>https://yutaiwasawa.blog/archives/2018/</link>
+    <description>Recent content in 2018 on YUTA IWASAWA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>© 2018 YUTA IWASAWA</copyright>
+    <lastBuildDate>Mon, 20 Aug 2018 23:26:20 +0900</lastBuildDate>
+    
+	<atom:link href="https://yutaiwasawa.blog/archives/2018/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>江戸ねこ茶屋に行ってきた</title>
+      <link>https://yutaiwasawa.blog/posts/6/</link>
+      <pubDate>Mon, 20 Aug 2018 23:26:20 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/posts/6/</guid>
+      <description>&lt;p&gt;「&lt;a href=&#34;https://edonekochaya.com/&#34;&gt;江戸ねこ茶屋&lt;/a&gt;」に行って来ました。&lt;/p&gt;
+
+&lt;p&gt;前提として僕はネコ好きですがネコアレルギー持ちで、発症すると丸一日は動けなくなります。なのでいつもペットショップでガラス越しに見たり、youtubeでネコ動画を観たりしてネコに触りたい、一緒に遊びたい欲求を我慢しています。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FINAL FANTASYと天野喜孝の世界展に行ってきた</title>
+      <link>https://yutaiwasawa.blog/posts/5/</link>
+      <pubDate>Sun, 19 Aug 2018 10:39:39 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/posts/5/</guid>
+      <description>&lt;p&gt;「&lt;a href=&#34;http://amano-exhibition.jp/&#34;&gt;FINAL FANTASYと天野喜孝の世界展&lt;/a&gt;」に行ってきました。&lt;/p&gt;
+
+&lt;p&gt;天野喜孝さんといえばFINAL FANTASYのキャラクターデザインで有名ですが、タイムボカンシリーズのキャラクターデザインもしていたそうです。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>コスパ良いイヤホンEHP-CH2010について</title>
+      <link>https://yutaiwasawa.blog/posts/4/</link>
+      <pubDate>Sat, 18 Aug 2018 15:11:19 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/posts/4/</guid>
+      <description>&lt;p&gt;使っていたイヤホンが壊れかけていたので、新しいイヤホンを買いに行きました。&lt;/p&gt;
+
+&lt;p&gt;以前使っていたイヤホンはaudio-technicaの「SOLID BASS」で、低音がすごい響いてとても臨場感ある音が楽しめるイヤホンです。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>高さが固定ではない要素を天地左右の中央に配置する方法</title>
+      <link>https://yutaiwasawa.blog/posts/3/</link>
+      <pubDate>Fri, 17 Aug 2018 10:12:35 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/posts/3/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;posts/2/&#34;&gt;前回&lt;/a&gt;に続けてFlexbox活用第2弾です。&lt;/p&gt;
+
+&lt;p&gt;今回はこれまで高さが固定ではない要素を、天地左右の中央に配置することは難しかったのですが、Flexboxを使うことによってスッキリ簡単に実現可能になりました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>コンテンツ要素が少ない場合でもブラウザの最下部にフッターを表示させる方法</title>
+      <link>https://yutaiwasawa.blog/posts/2/</link>
+      <pubDate>Thu, 16 Aug 2018 19:12:35 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/posts/2/</guid>
+      <description>&lt;p&gt;通常ブラウザの表示領域よりコンテンツ要素が少ないと、フッターの下に余白ができてしまいます。&lt;br /&gt;
+そんな時にFlexboxとViewport Heightを使えば、コンテンツ要素が少なくても、フッターをブラウザの最下部に表示させることができます。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【Pug】属性値の変数を表示させる書き方</title>
+      <link>https://yutaiwasawa.blog/posts/1/</link>
+      <pubDate>Wed, 15 Aug 2018 20:55:35 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/posts/1/</guid>
+      <description>&lt;p&gt;Pug(旧Jade)でコーディングする場合、ページごとのidやタイトルを設定したJSONファイルを取ってきて、それぞれ変数を表示させることがあります。
+タグ要素と属性値での変数表示方法が違って手間取ったので書いておきます。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

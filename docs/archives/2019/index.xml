@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2019 on YUTA IWASAWA</title>
+    <link>https://yutaiwasawa.blog/archives/2019/</link>
+    <description>Recent content in 2019 on YUTA IWASAWA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>© 2018 YUTA IWASAWA</copyright>
+    <lastBuildDate>Mon, 22 Apr 2019 17:17:51 +0900</lastBuildDate>
+    
+	<atom:link href="https://yutaiwasawa.blog/archives/2019/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>【git】tagの使い方</title>
+      <link>https://yutaiwasawa.blog/posts/8/</link>
+      <pubDate>Mon, 22 Apr 2019 17:17:51 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/posts/8/</guid>
+      <description>&lt;p&gt;リリースするときにタグをつけるので備忘録。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>畜ペンことつば九郎がおもしろかわいい</title>
+      <link>https://yutaiwasawa.blog/posts/7/</link>
+      <pubDate>Mon, 29 Oct 2018 22:13:01 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/posts/7/</guid>
+      <description>&lt;p&gt;東京ヤクルトスワローズのマスコット「つば九郎」を知っていますか？&lt;/p&gt;
+
+&lt;p&gt;スワローズということなのでツバメがモチーフで、見た目はこんな感じのマスコットです。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on YUTA IWASAWA</title>
+    <link>https://yutaiwasawa.blog/categories/</link>
+    <description>Recent content in Categories on YUTA IWASAWA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>© 2018 YUTA IWASAWA</copyright>
+    
+	<atom:link href="https://yutaiwasawa.blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coding</title>
+      <link>https://yutaiwasawa.blog/categories/coding/</link>
+      <pubDate>Fri, 17 Aug 2018 10:12:35 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/categories/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://yutaiwasawa.blog/categories/development/</link>
+      <pubDate>Mon, 22 Apr 2019 17:17:51 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diary</title>
+      <link>https://yutaiwasawa.blog/categories/diary/</link>
+      <pubDate>Mon, 29 Oct 2018 22:13:01 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/categories/diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gadget</title>
+      <link>https://yutaiwasawa.blog/categories/gadget/</link>
+      <pubDate>Sat, 18 Aug 2018 15:11:19 +0900</pubDate>
+      
+      <guid>https://yutaiwasawa.blog/categories/gadget/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
